@@ -59,6 +59,7 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    color: black; 
   }
   
   .menu-links {
@@ -131,5 +132,9 @@
     .menu-links.show li:not(:last-of-type) {
       flex: 1;
     }
+  }
+
+  .navbar.navbarBlack .menu-icon {
+    color: white; /* Set the color to white when the navbar turns black */
   }
   

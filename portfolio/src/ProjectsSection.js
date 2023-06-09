@@ -34,19 +34,25 @@ function ProjectsSection() {
 
   const projects = [
     {
-      name: "Ecommerce Website",
-      description: "Ecommerce store built with HTML, CSS, JS, REACT, and Stripe integration. ",
+        name: "Ortho Website(discontinued)",
+        description:
+          "Developed a WordPress website for a local orthodontist, leveraging HTML, CSS, PHP, and JavaScript. Implemented third-party plugins, including a booking API for appointment scheduling, Advanced Custom Fields (ACF) for content management, and integrated Google Maps and social media feeds. Customized the booking API to enable seamless appointment booking and management, leveraging ACF to create user-friendly interfaces for content updates, treatments showcase, testimonials, and promotions. Integrated Google Maps for easy navigation to the orthodontist's location and incorporated social media feed integration for showcasing updates and patient success stories. Ensured responsiveness and cross-browser compatibility for optimal performance and accessibility.",image:
+          "https://t3.ftcdn.net/jpg/02/67/46/60/360_F_267466037_n357KQ7qxOnUd7FstmkE4EfbObvVZtEC.jpg"
+      },
+    {
+      name: "Ecommerce Website WIP",
+      description: "Ecommerce store being built with React, Redux, Typescript, Node.js, Express.js, MongoDB, Stripe API, OAuth, Material UI, and AWS.",
       github: "https://github.com",
       image:
-        "/workspace/DeJon/portfolio/portfolio1/src/screenshotweb.jpg",
+        "https://t3.ftcdn.net/jpg/02/67/46/60/360_F_267466037_n357KQ7qxOnUd7FstmkE4EfbObvVZtEC.jpg",
       projectLink: "https://example.com",
     },
     {
-      name: "Notion like App",
-      description: "Note taking and task tracking app built with HTML CSS JS REACT",
+      name: "Chess.com Insight WIP",
+      description: "Web app to be used to track your game outcomes more intimately, being built using React, Redux, TS, Node.js, OAuth2, and Chess.com API",
       github: "https://github.com",
       image:
-        "portfolio/portfolio1/src/my-profile-pic.jpg",
+        "https://t3.ftcdn.net/jpg/02/67/46/60/360_F_267466037_n357KQ7qxOnUd7FstmkE4EfbObvVZtEC.jpg",
       projectLink: "https://example.com",
     },
   ];

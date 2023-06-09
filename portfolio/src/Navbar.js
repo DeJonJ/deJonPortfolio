@@ -57,7 +57,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="tech-skills"
+              to="skills"
               smooth={true}
               duration={500}
               offset={-70}
@@ -75,17 +75,6 @@ const Navbar = () => {
               onClick={handleMenuClick}
             >
               Projects
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="contact-me"
-              smooth={true}
-              duration={500}
-              offset={-70}
-              onClick={handleMenuClick}
-            >
-              Contact Me
             </Link>
           </li>
         </ul>

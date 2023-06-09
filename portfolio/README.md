@@ -21,6 +21,7 @@ git clone https://github.com/DeJonJ/deJonPortfolio
 2. Install the dependencies:
 
 cd your-portfolio
+
 npm install
 
 3. Run the development server:
